@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx">
+    <top>
+        <Label text="thiet ke layout" BorderPane.alignment="CENTER"/>
+    </top>
+    <left>
+        <Label text="sidebar left" BorderPane.alignment="CENTER" />
+    </left>
+    <right>
+        <Label text="sidebar right" BorderPane.alignment="CENTER" />
+    </right>
+    <bottom>
+        <Label text="footer" BorderPane.alignment="CENTER" />
+    </bottom>
+    <center>
+        <VBox BorderPane.alignment="CENTER">
+            <HBox prefHeight="20.0">
+                <Label text="left"/>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="20.0">
+                <Label alignment="CENTER" text="center"/>
+            </HBox>
+            <HBox alignment="TOP_RIGHT" prefHeight="20.0">
+                <Label alignment="CENTER" text="Right"/>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="80.0">
+                <Button text="Button Center"/>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0">
+                <Label text="Input: "/>
+                <TextField alignment="TOP_LEFT"/>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0"/>
+            <VBox alignment="CENTER" prefHeight="200.0">
+                <CheckBox text="Check box 1"/>
+                <CheckBox text="Check box 2"/>
+                <CheckBox text="Check box 3"/>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="100.0">
+                <RadioButton text="Radio button 1"/>
+                <RadioButton text="Radio button 2"/>
+                <RadioButton text="Radio button 3"/>
+            </VBox>
+        </VBox>
+    </center>
+</BorderPane>
+
+

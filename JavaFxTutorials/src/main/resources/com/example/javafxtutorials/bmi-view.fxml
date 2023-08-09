@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0"
+      xmlns="http://javafx.com/javafx/11.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.javafxtutorials.BmiView">
+    <HBox>
+        <Label text="nhap chieu cao"/>
+        <TextField fx:id="height"/>
+    </HBox>
+    <HBox>
+        <Label text="nhap can nang"/>
+        <TextField fx:id="weight"/>
+    </HBox>
+    <Button text="Tinh Can Nang" onAction="#BMI"/>
+    <Label fx:id="result" alignment="CENTER"/>
+
+
+</VBox>

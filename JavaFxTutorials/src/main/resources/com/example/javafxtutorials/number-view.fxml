@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0"
+      xmlns="http://javafx.com/javafx/11.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.javafxtutorials.NumberView">
+    <VBox>
+        <Label text="nhap so bat ki"/>
+        <TextField fx:id="soBatKi"/>
+    </VBox>
+    <Button text="click number" onAction="#Number"></Button>
+    <VBox>
+        <Label text="nhap so ngau nhien"/>
+        <TextField fx:id="soNgauNhien"/>
+    </VBox>
+    <VBox>
+       <Label text="Ket qua"/>
+        <TextField fx:id="reuslt" alignment="CENTER"/>
+
+    </VBox>
+
+</VBox>

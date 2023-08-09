@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0"
+      xmlns="http://javafx.com/javafx/11.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.javafxtutorials.LoginView">
+    <HBox alignment="CENTER">
+        <Label text="nhap ten"/>
+        <TextField fx:id="name"/>
+    </HBox>
+    <HBox>
+        <Label text="nhap mat khau"/>
+        <TextField fx:id="pass"/>
+    </HBox>
+    <HBox>
+        <Button text="Login" onAction="#login"/>
+    </HBox>
+
+</VBox>
+
+
+
+
